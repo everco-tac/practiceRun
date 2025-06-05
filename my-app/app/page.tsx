@@ -1,11 +1,12 @@
 // Homepage (/route)
 import HelloComponent from "./HelloComponent";
-import Image from "next/image";
+import UploadContractPage from "@/components/ui/upload";
 
 export default function Home() {
   return (
     <div>
-        <HelloComponent/>
+      <HelloComponent/>
+      <UploadContractPage />
     </div>
   );
 }
