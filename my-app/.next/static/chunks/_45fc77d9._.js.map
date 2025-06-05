@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jaydo/practiceRun/my-app/app/response/page.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { useSearchParams } from 'next/navigation';\r\n\r\nexport default function ResponsePage() {\r\n    const searchParams = useSearchParams();\r\n    const field = searchParams.get('field');\r\n    \r\n    console.log(\"in response page, field is\", field);\r\n    return (\r\n        <div>\r\n            <h1>Response</h1>\r\n            <div id=\"gpt-response\" className=\"mt-10 border-2 border-black-500 rounded-md p-4\">\r\n                <p>Our Response</p>\r\n                <p>{field || 'No response available'}</p>\r\n            </div>\r\n        </div>\r\n    )\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAIe,SAAS;;IACpB,MAAM,eAAe,CAAA,GAAA,oQAAA,CAAA,kBAAe,AAAD;IACnC,MAAM,QAAQ,aAAa,GAAG,CAAC;IAE/B,QAAQ,GAAG,CAAC,8BAA8B;IAC1C,qBACI,4TAAC;;0BACG,4TAAC;0BAAG;;;;;;0BACJ,4TAAC;gBAAI,IAAG;gBAAe,WAAU;;kCAC7B,4TAAC;kCAAE;;;;;;kCACH,4TAAC;kCAAG,SAAS;;;;;;;;;;;;;;;;;;AAI7B;GAdwB;;QACC,oQAAA,CAAA,kBAAe;;;KADhB","debugId":null}},
-    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jaydo/practiceRun/my-app/node_modules/.pnpm/next%4015.3.2_react-dom%4019.1.0_react%4019.1.0__react%4019.1.0/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
-}

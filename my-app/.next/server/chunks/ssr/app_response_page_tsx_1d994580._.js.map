@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jaydo/practiceRun/my-app/app/response/page.tsx"],"sourcesContent":["'use client';\r\n\r\nexport default function ResponsePage({field}: {field: string}) {\r\n    console.log(\"in response page, field is\", field);\r\n    return (\r\n        <div>\r\n            <h1>Response</h1>\r\n            <div id=\"gpt-response\" className=\"mt-10 border-2 border-black-500 rounded-md p-4\">\r\n                <p>Our Response</p>\r\n                <p>{field}</p>\r\n\r\n\r\n            </div>\r\n        </div>\r\n    )\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS,aAAa,EAAC,KAAK,EAAkB;IACzD,QAAQ,GAAG,CAAC,8BAA8B;IAC1C,qBACI,6WAAC;;0BACG,6WAAC;0BAAG;;;;;;0BACJ,6WAAC;gBAAI,IAAG;gBAAe,WAAU;;kCAC7B,6WAAC;kCAAE;;;;;;kCACH,6WAAC;kCAAG;;;;;;;;;;;;;;;;;;AAMpB","debugId":null}}]
-}
