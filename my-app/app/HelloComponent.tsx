@@ -77,6 +77,7 @@ function HelloComponent(){
             <div className="mt-5">
                 Enter field here: <input type="text" className="border-2 border-black-500 rounded-md font-semibold" value={field} onChange={(e) => setField(e.target.value)} />
             </div>
+            
             <h1>Our field is {field}</h1>
             
             <button 
